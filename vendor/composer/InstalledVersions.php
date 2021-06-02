@@ -27,24 +27,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '40c5b1626be6c9730cc8cdca83753b3b53db66d4',
     'name' => '__root__',
   ),
   'versions' => 
   array (
     '__root__' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '40c5b1626be6c9730cc8cdca83753b3b53db66d4',
     ),
     'doctrine/instantiator' => 
     array (
@@ -184,6 +184,16 @@ private static $installed = array (
       array (
       ),
       'reference' => 'c73c6737305e779771147af66c96ca6a7ed8a741',
+    ),
+    'roave/security-advisories' => 
+    array (
+      'pretty_version' => 'dev-latest',
+      'version' => 'dev-latest',
+      'aliases' => 
+      array (
+        0 => '9999999-dev',
+      ),
+      'reference' => '9460a22455b82b353d2212fecedebcf73b141baa',
     ),
     'sebastian/cli-parser' => 
     array (

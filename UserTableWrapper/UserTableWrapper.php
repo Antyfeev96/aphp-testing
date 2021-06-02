@@ -15,14 +15,13 @@ class UserTableWrapper implements TableWrapperInterface
 
   public function update(int $id, array $values): array
   {
-    echo $this->rows[$id];
+    $this->rows[$id] = $values;
     return $this->rows[$id];
   }
 
   public function delete(int $id): void
   {
-    echo $this->rows[$id];
-    array_splice($this->rows, 1, 1);
+    array_splice($this->rows, $id, 1);
   }
 
   public function get(): array

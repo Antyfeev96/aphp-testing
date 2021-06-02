@@ -1,11 +1,10 @@
 {
     "require-dev": {
+        "roave/security-advisories": "dev-latest"
+        ,
         "phpunit/phpunit": "^9.5"
     },
-    "autoload": {
-        "classmap": ["testing//"],
-        "psr-0": {
-            "testing//": ""
-        }
+    "require": {
+        "phpunit/php-code-coverage": "^9.2"
     }
 }
